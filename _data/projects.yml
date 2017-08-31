@@ -1,0 +1,45 @@
+- name: Victoria's Secret - Social Content Calendar
+  desc: Calendar to manage and share social media posts with international partners.
+  stack: Ruby on Rails, Postgres, Redis, React JS, Webpack, AWS
+  summary:
+    - Weekly calendar view filterable by social media platform and VS line of business
+    - User authentication & permissions through Devise gem
+    - Redis & Sidekiq used to queue background image resizing for thumbnails
+    - React components for front-end interactions (date picker, post details, platform filter)
+- name: The Ohio State University - Online Readiness
+  desc: Multi-part test to assess & educate potential online students.
+  stack: PHP & Laravel, MySQL, Doctrine ORM, Gulp
+  summary:
+    - Administration portal for OSU to create tests & questions
+    - Open public section for taking assessment & viewing results
+    - Results calculated based on weight of question
+    - Built for full accessibility
+- name: Clutch Internal - Presentation Series Emailer
+  desc: Application to manage invites & RSVPs for speaking series.
+  stack: Ruby on Rails, Postgres, Redis, Ubuntu
+  summary:
+    - Uses Redis & Sidekiq to schedule mail to send for events
+    - Uses additional queues to throttle mail sending to avoid spam filter
+- name: Victoria's Secret - Backstage Pass
+  desc: News and document repository for international partners.
+  stack: PHP & WordPress, MySQL, Gulp, Ubuntu
+  summary:
+    - Custom post types and taxonomies based on business needs
+    - Created new multi-level permission structure for users
+    - Customized multi-language support
+# - name: Cardinal Health
+#   desc: Single page app replication of an Excel spreadsheet
+#   summary: 
+#     - Built with HTML & vanilla JS
+#     - Calculator for salespeople to demonstrate potential costs & returns for switching products
+#     - Responds to input changes to recalculate totals based on provided formulas
+# - name: Prophet
+#   desc: WordPress site for Hong Kong market
+#   summary:
+#     - Combined two legacy WordPress themes into one
+#     - Worked across 4 timezones - EST, CST, PST, and Hong Kong
+- name: Cardinal Health - Triad
+  desc: Prototype project management app for pharmaceutical researchers.
+  stack: Node & Express, Neo4j, React
+  summary:
+    - Created REST API backed by graph database

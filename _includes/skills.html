@@ -1,0 +1,10 @@
+<div class="sidebar-item skills">
+  <h2>Skills</h2>
+	<ul>
+    {% for skill_hash in site.data.skills %}
+      {% for skill in skill_hash %}
+      <li>{{ skill[0] }}<span>[ {{skill[1]}} ]</span></li>
+      {% endfor %}
+    {% endfor %}
+	</ul>
+</div> 

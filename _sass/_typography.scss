@@ -1,0 +1,60 @@
+@font-face { 
+  font-family: "Overpass";
+  src: url( "fonts/Overpass-regular.ttf" );
+}
+
+@font-face { 
+  font-family: "OpenSans";
+  src: url( "fonts/OpenSans-ExtraBold.ttf" );
+}
+
+@font-face { 
+  font-family: "SourceSans";
+  src: url( "fonts/SourceSansPro-Regular.ttf" );
+}
+
+@font-face { 
+  font-family: "Roboto";
+  src: url( "fonts/Roboto-Regular.ttf" );
+}
+
+@font-face { 
+  font-family: "Roboto";
+  src: url( "fonts/Roboto-Bold.ttf" );
+  font-weight: bold;
+}
+
+
+
+body {
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "OpenSans";
+}
+
+h4 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p,
+li {
+  font-size: 14px;
+}

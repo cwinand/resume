@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>{{ site.name }}</h1>
+    <main>
+      <div class="sidebar">
+        {% include contact.html %}
+        {% include skills.html %}
+        {% include education.html  %}
+        {% include tools.html %}
+      </div>
+      <div class="main">
+        <h2>Relevant Projects</h2>
+        {% include projects.html %}
+      </div>
+    </main>
+  </body>
+</html>
