@@ -14,8 +14,8 @@
     - Open public section for taking assessment & viewing results
     - Results calculated based on weight of question
     - Built for full accessibility
-- name: Clutch Internal - Presentation Series Emailer
-  desc: Application to manage invites & RSVPs for speaking series.
+- name: Internal - Presentation Series Emailer
+  desc: Application to manage invites & RSVPs for internal speaking series.
   stack: Ruby on Rails, Postgres, Redis, Ubuntu
   summary:
     - Uses Redis & Sidekiq to schedule mail to send for events
