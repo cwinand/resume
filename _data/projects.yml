@@ -1,3 +1,20 @@
+- name: Abercrombie & Fitch - Ecommerce
+  year: 2017-2018, 2019-present
+  desc: Staffing support for abercrombie.com & hollisterco.com.
+  stack: JavaScript, jQuery, Java & JSP, Grunt
+  summary:
+    - Contributed to creation of new, accessible, component-based design system
+    - Key front-end developer responsible for refactoring Product Display Page to use new design system
+    - Create POCs and technical designs for new features and improving existing ones
+- name: Sarnova - Rewards Application
+  year: 2018-2019
+  desc: Sales, rewards, & equipment tracking application for healthcare supply company.
+  stack: JavaScript, Vue, Lodash, ES6, webpack, Sass, Java, Spring
+  summary:
+    - Tasked to architect, design, & build API-driven front-end application
+    - Created components for editable, sortable, & filterable data tables, forms, & documents
+    - Managed data using functional programming concepts with Vue's reactive computed properties
+    - Created & modified API services in Java & Spring
 - name: Victoria's Secret - Social Content Calendar
   year: 2017
   desc: Calendar to manage and share social media posts with international partners.
