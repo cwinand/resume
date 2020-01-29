@@ -39,6 +39,11 @@ h3 {
 h4 {
   font-family: "Roboto";
   font-weight: bold;
+
+  small {
+    font-size: 12px;
+    opacity: 0.7;
+  }
 }
 
 h1 {
@@ -47,7 +52,13 @@ h1 {
 
 h2 {
   font-size: 18px;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
+
+  small {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+  }
 }
 
 h3 {
