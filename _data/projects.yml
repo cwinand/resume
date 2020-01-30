@@ -3,9 +3,10 @@
   desc: Staffing support for abercrombie.com & hollisterco.com.
   stack: JavaScript, jQuery, Java & JSP, Grunt
   summary:
-    - Contributed to creation of new, accessible, component-based design system
+    - Contribute to creation of new, accessible, component-based design system
     - Key front-end developer responsible for refactoring Product Display Page to use new design system
-    - Create POCs and technical designs for new features and improving existing ones
+    - Create POCs, technical designs, and write front-end code for new features
+    - Refactor most important components for performance, testability, and readability
 - name: Sarnova - Rewards Application
   year: 2018-2019
   desc: Sales, rewards, & equipment tracking application for healthcare supply company.
